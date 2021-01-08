@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:clickable="true"
+    android:background="@color/white"
+    tools:context=".ui.plato.PlatoDetalles">
+
+
+    <ImageView
+        android:id="@+id/ivPlatoImage"
+        android:layout_width="wrap_content"
+        android:layout_height="233dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:src="@drawable/plato1" />
+
+    <TextView
+        android:id="@+id/tvPlatoNombre"
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivPlatoImage"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/plato_defecto"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivPlatoImage"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvPlatoPrecio"
+        android:layout_width="413dp"
+        android:layout_height="72dp"
+        android:layout_above="@+id/ingredientsLayout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:text="@string/default_price"
+        android:textAlignment="center"
+        android:textColor="@color/darkred"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPlatoNombre"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:id="@+id/ingredientsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPlatoPrecio"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp">
+
+        <Button
+            android:id="@+id/btnVegano"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_weight="0"
+            android:backgroundTint="@color/novegano"
+            android:clickable="false"
+            app:cornerRadius="35dp" />
+
+        <Button
+            android:id="@+id/btnGluten"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_weight="0"
+            android:backgroundTint="@color/gluten"
+            android:clickable="false"
+            app:cornerRadius="35dp" />
+
+        <Button
+            android:id="@+id/btnLactosa"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_weight="0"
+            android:backgroundTint="@color/lactosa"
+            android:clickable="false"
+            app:cornerRadius="35dp" />
+
+        <Button
+            android:id="@+id/btnPicante"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_weight="0"
+            android:clickable="false"
+            app:cornerRadius="35dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_below="@id/ingredientsLayout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingredientsLayout"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+
+                android:backgroundTint="@color/novegano"
+                app:cornerRadius="35dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="@font/alegreya_sans"
+                android:text="@string/no_vegano"
+                android:textColor="@color/black"
+                android:textSize="28sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+
+                android:backgroundTint="@color/gluten"
+                app:cornerRadius="35dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="@font/alegreya_sans"
+                android:text="@string/contiene_gluten"
+                android:textColor="@color/black"
+                android:textSize="28sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+
+                android:backgroundTint="@color/lactosa"
+                app:cornerRadius="35dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="@font/alegreya_sans"
+                android:text="@string/contiene_lactosa"
+                android:textColor="@color/black"
+                android:textSize="28sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+
+                android:backgroundTint="@color/picante"
+                app:cornerRadius="35dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="@font/alegreya_sans"
+                android:text="@string/picante"
+                android:textColor="@color/black"
+                android:textSize="28sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:paddingStart="0dp"
+        android:paddingTop="0dp"
+        android:paddingEnd="0dp"
+        android:paddingBottom="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="-6dp"
+            android:layout_weight="1"
+            android:text="@string/valorar_plato"
+            app:background="@color/grey"
+            app:backgroundTint="@color/grey" />
+
+        <Button
+            android:id="@+id/btnAgregarAlPedido"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="-6dp"
+            android:layout_weight="1"
+            android:text="@string/agregar_al_pedido"
+            app:background="@color/darkred"
+            app:backgroundTint="@color/darkred" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
