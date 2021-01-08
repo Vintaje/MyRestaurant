@@ -159,7 +159,6 @@
                     android:layout_height="50dp"
                     android:layout_gravity="center"
                     android:background="@drawable/border"
-                    android:fontFamily="monospace"
                     android:paddingStart="30dp"
                     android:paddingTop="10dp"
                     android:paddingEnd="30dp"
@@ -188,14 +187,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
-                    android:fontFamily="monospace"
                     android:paddingStart="30dp"
                     android:paddingTop="11dp"
                     android:paddingEnd="30dp"
                     android:paddingBottom="5dp"
                     android:text="@string/volver"
                     android:textAlignment="center"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="20sp" />
             </androidx.cardview.widget.CardView>
 

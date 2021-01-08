@@ -65,7 +65,7 @@ class LoginFragment : Fragment() {
     private fun setButtonAndFields() {
         btnMapa = root?.findViewById(R.id.btnMapa)
         (btnMapa as Button).setOnClickListener{
-            val gmmIntentUri = Uri.parse("geo:38.69239899895243, -4.1092743071446804")
+            val gmmIntentUri = Uri.parse("https://www.google.es/maps/place/Kebab+Hut+Comida+Turca+Cafeteria/@38.6921192,-4.1093346,20.25z/data=!4m5!3m4!1s0xd6b8cf6134905d5:0x9bf5cd235cc23d83!8m2!3d38.6919261!4d-4.1091945")
             val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
             mapIntent.setPackage("com.google.android.apps.maps")
             if (mapIntent.resolveActivity(requireActivity().getPackageManager()) != null) {
