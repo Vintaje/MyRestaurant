@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "495387005640",
+    "firebase_url": "https://myrestauranttfg-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "myrestauranttfg",
+    "storage_bucket": "myrestauranttfg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495387005640:android:b445eeae0dd49381e90bfd",
+        "android_client_info": {
+          "package_name": "com.emiliorg.myrestaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495387005640-fv56s0m1r0f56ufsfhvvatbqi8rljo8j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfU6_lJMI_fjPsvBN8G3MD9Qc6ExthzWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495387005640-fv56s0m1r0f56ufsfhvvatbqi8rljo8j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_24px"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_book_24px"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_visitas"
+            android:enabled="false"
+            android:icon="@drawable/ic_bookmark_24px"
+            android:title="@string/visitas" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_book_24px"
+            android:title="@string/pedidos" />
+
+        <item
+            android:id="@+id/nav_opiniones"
+            android:enabled="false"
+            android:icon="@drawable/ic_star_half_24px"
+            android:title="@string/opiniones" />
+    </group>
+    <group android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_mensajes"
+            android:enabled="false"
+            android:icon="@drawable/ic_chat_24px"
+            android:title="@string/mensajes" />
+        <item
+            android:id="@+id/nav_settings"
+            android:enabled="false"
+            android:icon="@drawable/ic_settings_24px"
+            android:title="@string/settings" />
+    </group>
+</menu>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.emiliorg.myrestaurant.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_gallery"
+            app:destination="@id/nav_gallery" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_slideshow"
+            app:destination="@id/nav_slideshow" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.emiliorg.myrestaurant.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" >
+        <action
+            android:id="@+id/action_nav_gallery_to_nav_platodetalles"
+            app:destination="@id/nav_platodetalles" />
+        <action
+            android:id="@+id/action_nav_gallery_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.emiliorg.myrestaurant.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" >
+        <action
+            android:id="@+id/action_nav_slideshow_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_visitas"
+        android:name="com.emiliorg.myrestaurant.ui.visitas.VisitasFragment"
+        android:label="@string/visitas"
+        tools:layout="@layout/fragment_visitas"/>
+    <fragment
+        android:id="@+id/nav_opiniones"
+        android:name="com.emiliorg.myrestaurant.ui.opiniones.OpinionesFragment"
+        android:label="@string/opiniones"
+        tools:layout="@layout/fragment_opiniones"/>
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.emiliorg.myrestaurant.ui.settings.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings"/>
+    <fragment
+        android:id="@+id/nav_mensajes"
+        android:name="com.emiliorg.myrestaurant.ui.mensajes.MensajesFragment"
+        android:label="@string/mensajes"
+        tools:layout="@layout/fragment_mensajes"/>
+    <fragment android:id="@+id/nav_platodetalles"
+        android:name="com.emiliorg.myrestaurant.ui.plato.PlatoDetalles"
+        android:label="@string/plato_detalles"
+        tools:layout="@layout/fragment_plato_detalles">
+        <action
+            android:id="@+id/action_nav_platodetalles_to_nav_gallery"
+            app:destination="@id/nav_gallery" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_pedidos"
+        android:name="com.emiliorg.myrestaurant.ui.Pedido.PedidoFragment"
+        android:label="@string/pedidos"
+        tools:layout="@layout/fragment_pedido">
+        <action
+            android:id="@+id/action_nav_pedidos_to_nav_gallery"
+            app:destination="@id/nav_gallery" />
+        <action
+            android:id="@+id/action_nav_pedidos_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+</navigation>

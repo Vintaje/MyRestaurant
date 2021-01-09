@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/border_bottom"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:focusable="true">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/pedidoPhotoPlato"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/plato1"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/pedidoPhotoPlato"
+
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="15dp">
+
+            <TextView
+                android:id="@+id/platoPedidoNombre"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="0.7"
+                android:text="@string/plato_defecto"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/platoPedidoPrecio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginStart="10dp"
+                android:layout_weight="3"
+                android:gravity="end"
+                android:text="@string/default_price"
+                android:textColor="@color/darkred"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/btnBorrarItemPedido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="0.7"
+                android:shadowColor="@color/white"
+                android:text="X"
+                android:textColor="@color/black"
+                app:background="@color/white"
+                app:backgroundTint="@color/white" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
