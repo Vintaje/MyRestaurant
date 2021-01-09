@@ -52,3 +52,6 @@ En el siguiente punto teneis el enlace a la wiki realizada donde podréis encont
     implementation 'com.squareup.picasso:picasso:2.71828'
 ```
 
+[**Circle Image View**](https://github.com/hdodenhof/CircleImageView)
+[**Picasso**](https://github.com/square/picasso)
+
