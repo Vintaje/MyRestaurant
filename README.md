@@ -1,11 +1,11 @@
 # MyRestaurant
 
 # Tabla de Contenido
-## 1. Presentacion
-## 2. Wiki del Proyecto
-## 3. Funcionalidades Agregadas
-## 4. Tecnologías Usadas
-## 5. Dependencias Agregadas
+#### 1. Presentacion
+#### 2. Wiki del Proyecto
+#### 3. Funcionalidades Agregadas
+#### 4. Tecnologías Usadas
+#### 5. Dependencias Agregadas
 
 <hr/>
 
