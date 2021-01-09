@@ -53,5 +53,6 @@ En el siguiente punto teneis el enlace a la wiki realizada donde podréis encont
 ```
 
 [**Circle Image View**](https://github.com/hdodenhof/CircleImageView)
+<br/>
 [**Picasso**](https://github.com/square/picasso)
 
