@@ -56,3 +56,5 @@ En el siguiente punto teneis el enlace a la wiki realizada donde podréis encont
 <br/>
 [**Picasso**](https://github.com/square/picasso)
 
+## 6. [Manual de Usuario](https://github.com/Vintaje/MyRestaurant/wiki/9.-Manual-de-Usuario)
+
