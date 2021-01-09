@@ -34,4 +34,4 @@
 
 ## 4. Tecnologías Usadas:
 
-- Base de Datos: Realtime Database By Firebase [<img align="left" alt="Firebase" width="20px" src="https://www.gstatic.com/devrel-devsite/prod/veaa02889f0c07424beaa31d9bac1e874b6464e7ed7987fde4c94a59ace9487fa/firebase/images/touchicon-180.png" />][firebase]
+- Base de Datos: Realtime Database By Firebase <img align="left" alt="Firebase" width="20px" src="https://www.gstatic.com/devrel-devsite/prod/veaa02889f0c07424beaa31d9bac1e874b6464e7ed7987fde4c94a59ace9487fa/firebase/images/touchicon-180.png" />
