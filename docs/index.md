@@ -11,7 +11,7 @@
   </head>
  <body>
   <h1>Manual de Usuario</h1>
-<img src="https://github.com/Vintaje/MyRestaurant/blob/develop/docImages/manual1.PNG" alt="1" width="70%"/> <br/>
+<img src="https://github.com/Vintaje/MyRestaurant/blob/develop/docImages/manual1.PNG" alt="1" > <br/>
 <img src="https://github.com/Vintaje/MyRestaurant/blob/develop/docImages/manual2.PNG" alt="2" /> <br/>
 <img src="https://github.com/Vintaje/MyRestaurant/blob/develop/docImages/manual3.PNG" alt="3" /> <br/>
 <img src="https://github.com/Vintaje/MyRestaurant/blob/develop/docImages/manual4.PNG" alt="4" /> <br/>
