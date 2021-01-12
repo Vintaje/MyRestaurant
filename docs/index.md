@@ -1,9 +1,1 @@
-![](https://github.com/Vintaje/MyRestaurant/blob/develop/docImages/manual1.PNG)
-![](https://github.com/Vintaje/MyRestaurant/blob/develop/docImages/manual2.PNG)
-![](https://github.com/Vintaje/MyRestaurant/blob/develop/docImages/manual3.PNG)
-![](https://github.com/Vintaje/MyRestaurant/blob/develop/docImages/manual4.PNG)
-![](https://github.com/Vintaje/MyRestaurant/blob/develop/docImages/manual5.PNG)
-![](https://github.com/Vintaje/MyRestaurant/blob/develop/docImages/manual6.PNG)
-![](https://github.com/Vintaje/MyRestaurant/blob/develop/docImages/manual7.PNG)
-![](https://github.com/Vintaje/MyRestaurant/blob/develop/docImages/manual8.PNG)
-![](https://github.com/Vintaje/MyRestaurant/blob/develop/docImages/manual9.PNG)
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
