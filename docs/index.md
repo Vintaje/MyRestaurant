@@ -8,14 +8,14 @@
   </head>
  <body>
   <h1>Manual de Usuario</h1>
-<img src="./img/manual1.PNG" alt="1" > <br/>
-<img src="./img/manual1.PNG" alt="2" /> <br/>
-<img src="./img/manual1.PNG" alt="3" /> <br/>
-<img src="./img/manual1.PNG" alt="4" /> <br/>
-<img src="./img/manual1.PNG" alt="5" /> <br/>
-<img src="./img/manual1.PNG" alt="6" /> <br/>
-<img src="./img/manual1.PNG" alt="7" /> <br/>
-<img src="./img/manual1.PNG" alt="8" /> <br/>
-<img src="./img/manual1.PNG" alt="9" /> <br/>
+<img src="./img/manual1.PNG"> <br/>
+<img src="./img/manual2.PNG"> <br/>
+<img src="./img/manual3.PNG"> <br/>
+<img src="./img/manual4.PNG"> <br/>
+<img src="./img/manual5.PNG"> <br/>
+<img src="./img/manual6.PNG"> <br/>
+<img src="./img/manual7.PNG"> <br/>
+<img src="./img/manual8.PNG"> <br/>
+<img src="./img/manual9.PNG"> <br/>
 </body>
 </html>
